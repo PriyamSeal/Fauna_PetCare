@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>www.petcare.com</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./pet.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div id="menu" class="fas fa-bars"></div>
+
+      <a href="#home" class="logo"><i class="fas fa-bone"></i><span style="color: red; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 50px;">F</span>auna</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <div class="dropdown">
+          <button class="dropbtn" style="color: black; display: inline-block;">
+            Category
+
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#category">Shop By Category</a>
+            <a href="#cate"> Adopt By Category</a>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+      </div>
+        <a href="#featured">featured</a>
+        <a href="#products">products</a>
+        <a href="#offer">offer</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+
+      <form action="" id="search-box">
+        <input type="search" id="search" placeholder="search here" />
+        <label for="search" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <span>The best breeds right here</span>
+        <h3>
+          Because 
+           They
+          <br>Comes First</br>
+                </h3>
+        <a href="#" class="btn">get started</a>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- category section starts  -->
+
+    <section class="category" id="category">
+      <h1 class="heading">
+        <i class="fas fa-paw"></i> Shop by category <i class="fas fa-paw"></i>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./img19.jpg" alt="" />
+          <h3>Dogs</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="./img20.jpg" alt="" />
+          <h3>Cat</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="./img22.jpg" alt="" />
+          <h3>Rabbit</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="./img6.jpg" alt="" />
+          <h3>Birds</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cate" id="cate">
+      <h1 class="heading">
+        <i class="fas fa-paw"></i> Adopt by category <i class="fas fa-paw"></i>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./img22.jpg" alt="" />
+          <h3>Dogs</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="./img21.jpg" alt="" />
+          <h3>Cat</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="./img23.jpg" alt="" />
+          <h3>Rabbit</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="./img25.jpg" alt="" />
+          <h3>Birds</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- category section ends -->
+
+    <section class="featured" id="featured">
+      <h1 class="heading">
+        <i class="fas fa-paw"></i> our featured products
+        <i class="fas fa-paw"></i>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="price">$14.05</div>
+          <img src="./img12.jpeg" alt="" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>tasty pets food</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Mollitia, facilis?
+            </p>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="price">$15.40</div>
+          <img src="./img16.jpeg" alt="" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>tasty pets food</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Mollitia, facilis?
+            </p>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- deal section starts  -->
+
+    <section class="deal">
+      <span>upto 70% off</span>
+      <h3>tasty and healthy pets food</h3>
+      <a href="#" class="btn">see the deal now</a>
+    </section>
+
+    <!-- deal section ends -->
+
+    <section class="products" id="products">
+      <h1 class="heading">
+        <i class="fas fa-paw"></i> Our Latest Products
+        <i class="fas fa-paw"></i>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./img26.jpeg" alt="" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>UPVL Pet Hair, Dust, Lint Remover Double Sided, Reusable Brush </h3>
+            <div class="price">$10.03 <span>12.50</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img27.jpeg" alt="" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Petslover Fiber Filled Mink & Velvet Fabric with Cusion Pillow Dogs & Cats</h3>
+            <div class="price">$10.03 <span>12.50</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img14.jpeg" alt="" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Supreme-Food for Cat</h3>
+            <div class="price">$10.03 <span>12.50</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img15.jpeg" alt="" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Butcher's For Dog's</h3>
+            <div class="price">$10.03 <span>12.50</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img17.jpeg" alt="" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Cage For Parrot</h3>
+            <div class="price">$10.03 <span>12.50</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img18.jpeg" alt="" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Food for Rabbit</h3>
+            <div class="price">$10.03 <span>12.50</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- offer section starts  -->
+
+    <section class="offer" id="offer">
+      <h1 class="heading">
+        <i class="fas fa-paw"></i> our latest offer <i class="fas fa-paw"></i>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./img10.jpeg" alt="" />
+          <div class="content">
+            <span>best offer</span>
+            <h3>upto 40% off</h3>
+            <a href="#" class="btn">see offer</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img11.jpeg" alt="" />
+          <div class="content">
+            <span>only for today</span>
+            <h3>upto 80% off</h3>
+            <a href="#" class="btn">see offer</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- offer section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <i class="fas fa-paw"></i> contact us <i class="fas fa-paw"></i>
+      </h1>
+
+      <form action="">
+        <div class="inputBox">
+          <input type="text" placeholder="name" />
+          <input type="email" placeholder="email" />
+        </div>
+
+        <div class="inputBox">
+          <input type="number" placeholder="number" />
+          <input type="text" placeholder="subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="message"
+        ></textarea>
+
+        <input type="submit" value="send message" class="btn" />
+      </form>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section  -->
+
+    <section class="footer">
+      <div class="share">
+        <a
+          href="https://www.youtube.com/channel/UCVmO3hLfnepGqrae-pIBqYA"
+          class="btn"
+        >
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.facebook.com/priyam.seal.50" class="btn">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/PriyamSeal" class="btn">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/priyam-seal-6822b3184/"
+          class="btn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/picklu_007/" class="btn">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <h1 class="credit">
+        Created by <span> @Pseal </span> | All rights reserved!2021
+      </h1>
+    </section>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./pet.js"></script>
+  </body>
+</html>
